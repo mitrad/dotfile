@@ -6,6 +6,10 @@ options(digits.secs=2)              # show sub-second time stamps
 options(max.print=500)             # do not print more than 1000 lines
 options(digits=4, show.signif.stars=FALSE)
 
+options(scipen = 10)
+options(dplyr.width = Inf)
+options(dplyr.print_max = 100)
+
 # From http://kevinushey.github.io/blog/2015/02/02/rprofile-essentials/
 # warn on partial matches
 #options(warnPartialMatchAttr = TRUE,
