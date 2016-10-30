@@ -16,4 +16,4 @@ alias h="history"
 alias j="jobs"
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew cleanup'
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; brew cask cleanup'
