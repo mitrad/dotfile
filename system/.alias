@@ -14,6 +14,7 @@ alias p="cd ~/Projects"
 alias g="git"
 alias h="history"
 alias j="jobs"
+alias vi='/usr/local/bin/vim'
 
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
-alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; brew cask cleanup'
+alias update='brew update; brew upgrade; brew cask upgrade; brew cleanup; brew cask cleanup'
